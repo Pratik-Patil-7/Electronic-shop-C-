@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\ReportGenerator.5.1.26\build\netstandard2.0\ReportGenerator.props" Condition="Exists('..\packages\ReportGenerator.5.1.26\build\netstandard2.0\ReportGenerator.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FC78307-7662-43C4-8753-C0199C4D6381}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Wholesale_electronic_shop</RootNamespace>
+    <AssemblyName>Wholesale electronic shop</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.AxShockwaveFlashObjects.13.0.4003\lib\net40\AxShockwaveFlashObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DistributorBillReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DistributorBillReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Distributor_Bill_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distributor_Bill_Report.Designer.cs">
+      <DependentUpon>Distributor_Bill_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DistributorReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistributorReport.Designer.cs">
+      <DependentUpon>DistributorReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distributor_Reportrpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Distributor_Reportrpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="distributorbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distributorbill.Designer.cs">
+      <DependentUpon>distributorbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\retailer\deleteretailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\retailer\deleteretailer.Designer.cs">
+      <DependentUpon>deleteretailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\retailer\addretailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\retailer\addretailer.Designer.cs">
+      <DependentUpon>addretailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\product\addproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\product\addproduct.Designer.cs">
+      <DependentUpon>addproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\product\deleteproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\product\deleteproduct.Designer.cs">
+      <DependentUpon>deleteproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\distributor\deletedistributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\distributor\deletedistributor.Designer.cs">
+      <DependentUpon>deletedistributor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\distributor\adddistributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\distributor\adddistributor.Designer.cs">
+      <DependentUpon>adddistributor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="headers\distributorheader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="headers\distributorheader.Designer.cs">
+      <DependentUpon>distributorheader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\category\addstock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\category\addstock.Designer.cs">
+      <DependentUpon>addstock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="headers\categoryheader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="headers\categoryheader.Designer.cs">
+      <DependentUpon>categoryheader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\category\addcategoryitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\category\addcategoryitem.Designer.cs">
+      <DependentUpon>addcategoryitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="headers\productheader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="headers\productheader.Designer.cs">
+      <DependentUpon>productheader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productreport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>productreport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Product_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_Report.Designer.cs">
+      <DependentUpon>Product_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="forms\category\subcategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\category\subcategory.Designer.cs">
+      <DependentUpon>subcategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\category\retailerorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\category\retailerorder.Designer.cs">
+      <DependentUpon>retailerorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="headers\retailerheader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="headers\retailerheader.Designer.cs">
+      <DependentUpon>retailerheader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="headers\reportheader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="headers\reportheader.Designer.cs">
+      <DependentUpon>reportheader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\distributor\updatedistributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\distributor\updatedistributor.Designer.cs">
+      <DependentUpon>updatedistributor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\distributor\searchdistributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\distributor\searchdistributor.Designer.cs">
+      <DependentUpon>searchdistributor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\product\searchproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\product\searchproduct.Designer.cs">
+      <DependentUpon>searchproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\product\updateproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\product\updateproduct.Designer.cs">
+      <DependentUpon>updateproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\retailer\searchretailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\retailer\searchretailer.Designer.cs">
+      <DependentUpon>searchretailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\retailer\updateretailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\retailer\updateretailer.Designer.cs">
+      <DependentUpon>updateretailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="retailerbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="retailerbill.Designer.cs">
+      <DependentUpon>retailerbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RetailerReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetailerReport.Designer.cs">
+      <DependentUpon>RetailerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RetailerBillReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RetailerBillReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Retailer_Bill_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retailer_Bill_Report.Designer.cs">
+      <DependentUpon>Retailer_Bill_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retailer_Report.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Retailer_Report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistributorBillReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DistributorBillReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distributor_Bill_Report.resx">
+      <DependentUpon>Distributor_Bill_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistributorReport.resx">
+      <DependentUpon>DistributorReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distributor_Reportrpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Distributor_Reportrpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distributorbill.resx">
+      <DependentUpon>distributorbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\retailer\deleteretailer.resx">
+      <DependentUpon>deleteretailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\retailer\addretailer.resx">
+      <DependentUpon>addretailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\product\addproduct.resx">
+      <DependentUpon>addproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\product\deleteproduct.resx">
+      <DependentUpon>deleteproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\distributor\deletedistributor.resx">
+      <DependentUpon>deletedistributor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\distributor\adddistributor.resx">
+      <DependentUpon>adddistributor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="headers\distributorheader.resx">
+      <DependentUpon>distributorheader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\category\addstock.resx">
+      <DependentUpon>addstock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="headers\categoryheader.resx">
+      <DependentUpon>categoryheader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\category\addcategoryitem.resx">
+      <DependentUpon>addcategoryitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="headers\productheader.resx">
+      <DependentUpon>productheader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>productreport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product_Report.resx">
+      <DependentUpon>Product_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="forms\category\subcategory.resx">
+      <DependentUpon>subcategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\category\retailerorder.resx">
+      <DependentUpon>retailerorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="headers\retailerheader.resx">
+      <DependentUpon>retailerheader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="headers\reportheader.resx">
+      <DependentUpon>reportheader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\distributor\updatedistributor.resx">
+      <DependentUpon>updatedistributor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\distributor\searchdistributor.resx">
+      <DependentUpon>searchdistributor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\product\searchproduct.resx">
+      <DependentUpon>searchproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\product\updateproduct.resx">
+      <DependentUpon>updateproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\retailer\searchretailer.resx">
+      <DependentUpon>searchretailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\retailer\updateretailer.resx">
+      <DependentUpon>updateretailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="retailerbill.resx">
+      <DependentUpon>retailerbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetailerReport.resx">
+      <DependentUpon>RetailerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetailerBillReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RetailerBillReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retailer_Bill_Report.resx">
+      <DependentUpon>Retailer_Bill_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retailer_Report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Retailer_Report.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\logom.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="forms\report\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\ReportGenerator.5.1.26\build\netstandard2.0\ReportGenerator.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ReportGenerator.5.1.26\build\netstandard2.0\ReportGenerator.props'))" />
+  </Target>
+</Project>

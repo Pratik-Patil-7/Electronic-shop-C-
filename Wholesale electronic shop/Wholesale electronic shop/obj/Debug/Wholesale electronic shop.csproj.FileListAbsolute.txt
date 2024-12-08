@@ -1,0 +1,102 @@
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Wholesale electronic shop.exe.config
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Wholesale electronic shop.exe
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Wholesale electronic shop.pdb
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.csproj.AssemblyReference.cache
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Home.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Properties.Resources.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.csproj.GenerateResource.cache
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.csproj.CoreCompileInputs.cache
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.exe
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.pdb
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Login.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addcategoryitem.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.subcategory.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.retailerorder.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addstock.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.categoryheader.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Wholesale electronic shop.exe.config
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Wholesale electronic shop.exe
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Wholesale electronic shop.pdb
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.csproj.AssemblyReference.cache
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.distributorheader.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addstock.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.categoryheader.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addcategoryitem.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Home.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Login.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Properties.Resources.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.subcategory.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.retailerorder.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.csproj.GenerateResource.cache
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.csproj.CoreCompileInputs.cache
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.exe
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.pdb
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.productheader.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.retailerheader.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.reportheader.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.adddistributor.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.updatedistributor.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.searchdistributor.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.deletedistributor.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.searchproduct.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addproduct.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.updateproduct.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.deleteproduct.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addretailer.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.searchretailer.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.updateretailer.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.deleteretailer.resources
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Distributor.accdb
+C:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\Distributor_table.mdb
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.deleteretailer.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addretailer.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.addproduct.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.deleteproduct.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.deletedistributor.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.adddistributor.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.distributorheader.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.productheader.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.retailerheader.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.reportheader.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.updatedistributor.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.searchdistributor.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.searchproduct.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.updateproduct.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.searchretailer.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.updateretailer.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.distributorbill.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.retailerbill.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\stdole.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale electronic shop.csproj.CopyComplete
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\AxShockwaveFlashObjects.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.Shared.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\log4net.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.Web.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\log4net.xml
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.DistributorReport.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\bin\Debug\ShockwaveFlashObjects.dll
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.RetailerReport.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Product_Report.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Distributor_Bill_Report.resources
+D:\wholesale electronic shop\Wholesale electronic shop\Wholesale electronic shop\obj\Debug\Wholesale_electronic_shop.Retailer_Bill_Report.resources
